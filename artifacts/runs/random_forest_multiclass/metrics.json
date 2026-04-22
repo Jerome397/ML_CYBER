@@ -1,0 +1,65 @@
+{
+    "model": "RandomForestClassifier",
+    "dataset": "multiclass_v1",
+    "num_classes": 7,
+    "class_names": [
+        "BENIGN",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Rare",
+        "Recon",
+        "Spoofing"
+    ],
+    "train_size": 64867,
+    "val_size": 16217,
+    "test_size": 20272,
+    "val_accuracy": 0.9002281556391442,
+    "val_macro_f1": 0.6291828153673797,
+    "val_weighted_f1": 0.8995093696260004,
+    "test_accuracy": 0.8978887134964483,
+    "test_macro_f1": 0.6128621021279084,
+    "test_weighted_f1": 0.897990071250295,
+    "top_10_features": [
+        {
+            "feature": "Tot sum",
+            "importance": 0.10570607062335463
+        },
+        {
+            "feature": "Rate",
+            "importance": 0.09910387965518809
+        },
+        {
+            "feature": "IAT",
+            "importance": 0.07947300997045155
+        },
+        {
+            "feature": "Tot size",
+            "importance": 0.07233581794476238
+        },
+        {
+            "feature": "AVG",
+            "importance": 0.06714792100398932
+        },
+        {
+            "feature": "Max",
+            "importance": 0.06267517516547655
+        },
+        {
+            "feature": "Number",
+            "importance": 0.05352810031374872
+        },
+        {
+            "feature": "Time_To_Live",
+            "importance": 0.04038216800136994
+        },
+        {
+            "feature": "Header_Length",
+            "importance": 0.0389776538986999
+        },
+        {
+            "feature": "Min",
+            "importance": 0.03861962904711754
+        }
+    ]
+}

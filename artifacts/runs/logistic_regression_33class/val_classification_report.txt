@@ -1,0 +1,40 @@
+                         precision    recall  f1-score   support
+
+       BACKDOOR_MALWARE       0.00      0.00      0.00         0
+                 BENIGN       0.99      0.42      0.59      8109
+       BROWSERHIJACKING       0.00      0.00      0.00         1
+       COMMANDINJECTION       0.01      1.00      0.02         1
+ DDOS-ACK_FRAGMENTATION       0.96      0.98      0.97        51
+        DDOS-HTTP_FLOOD       0.50      0.40      0.44         5
+        DDOS-ICMP_FLOOD       1.00      1.00      1.00      1269
+DDOS-ICMP_FRAGMENTATION       0.98      0.99      0.98        80
+      DDOS-PSHACK_FLOOD       1.00      0.99      1.00       725
+       DDOS-RSTFINFLOOD       1.00      1.00      1.00       715
+         DDOS-SLOWLORIS       0.50      0.50      0.50         4
+DDOS-SYNONYMOUSIP_FLOOD       0.46      0.69      0.55       637
+         DDOS-SYN_FLOOD       0.58      0.20      0.30       719
+         DDOS-TCP_FLOOD       0.73      0.61      0.66       791
+         DDOS-UDP_FLOOD       0.74      0.72      0.73       954
+ DDOS-UDP_FRAGMENTATION       0.93      1.00      0.96        50
+   DICTIONARYBRUTEFORCE       0.00      0.00      0.00         2
+           DNS_SPOOFING       0.02      0.41      0.04        32
+         DOS-HTTP_FLOOD       0.71      0.92      0.80        13
+          DOS-SYN_FLOOD       0.34      0.48      0.39       357
+          DOS-TCP_FLOOD       0.49      0.62      0.55       472
+          DOS-UDP_FLOOD       0.57      0.60      0.59       586
+     MIRAI-GREETH_FLOOD       0.98      0.93      0.95       176
+      MIRAI-GREIP_FLOOD       0.90      0.98      0.93       132
+         MIRAI-UDPPLAIN       0.99      0.99      0.99       157
+       MITM-ARPSPOOFING       0.02      0.45      0.04        55
+    RECON-HOSTDISCOVERY       0.08      0.58      0.13        24
+           RECON-OSSCAN       0.00      0.06      0.01        17
+        RECON-PINGSWEEP       0.00      0.00      0.00         0
+         RECON-PORTSCAN       0.01      0.13      0.03        15
+           SQLINJECTION       0.00      0.00      0.00         1
+       UPLOADING_ATTACK       0.00      0.00      0.00         0
+      VULNERABILITYSCAN       0.03      0.24      0.05        66
+                    XSS       0.00      0.00      0.00         1
+
+               accuracy                           0.58     16217
+              macro avg       0.46      0.53      0.45     16217
+           weighted avg       0.87      0.58      0.66     16217

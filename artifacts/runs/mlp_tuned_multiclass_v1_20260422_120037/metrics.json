@@ -1,0 +1,21 @@
+{
+    "model": "MLPClassifier",
+    "dataset": "multiclass_v1",
+    "run_name": "mlp_tuned_multiclass_v1_20260422_120037",
+    "best_params": {
+        "mlp__activation": "tanh",
+        "mlp__alpha": 0.0001,
+        "mlp__batch_size": 128,
+        "mlp__hidden_layer_sizes": [
+            128
+        ],
+        "mlp__learning_rate_init": 0.01
+    },
+    "best_cv_macro_f1": 0.5749947216179884,
+    "val_accuracy": 0.9147191219091078,
+    "val_macro_f1": 0.5890255642799213,
+    "val_weighted_f1": 0.9040189993197831,
+    "test_accuracy": 0.9130327545382794,
+    "test_macro_f1": 0.5757948261767627,
+    "test_weighted_f1": 0.9022164371900915
+}

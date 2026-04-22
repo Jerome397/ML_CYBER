@@ -1,0 +1,8 @@
+,BENIGN,DDoS,DoS,Mirai,Rare,Recon,Spoofing
+BENIGN,5608,0,0,0,1273,1032,2223
+DDoS,0,4613,2876,10,0,0,2
+DoS,0,150,1630,3,0,0,2
+Mirai,0,0,2,575,0,0,4
+Rare,0,0,0,0,0,4,4
+Recon,22,0,1,0,27,90,13
+Spoofing,20,0,0,0,9,4,75

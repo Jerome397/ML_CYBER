@@ -1,0 +1,35 @@
+{
+    "promoted_model_name": "random_forest_33class",
+    "source_run_dir": "C:\\Users\\user\\OneDrive\\Desktop\\Project-ML-cyber\\artifacts\\runs\\random_forest_33class",
+    "selection_metric": "val_macro_f1",
+    "selected_score": 0.5560664061240315,
+    "selected_accuracy": 0.8727261515693409,
+    "all_candidates": [
+        {
+            "model_name": "random_forest_33class",
+            "run_dir": "C:\\Users\\user\\OneDrive\\Desktop\\Project-ML-cyber\\artifacts\\runs\\random_forest_33class",
+            "macro_f1": 0.5560664061240315,
+            "accuracy": 0.8727261515693409
+        },
+        {
+            "model_name": "logistic_regression_33class",
+            "run_dir": "C:\\Users\\user\\OneDrive\\Desktop\\Project-ML-cyber\\artifacts\\runs\\logistic_regression_33class",
+            "macro_f1": 0.44722966109446805,
+            "accuracy": 0.5798853055435654
+        }
+    ],
+    "required_files_promoted": [
+        "best_model.joblib",
+        "best_model_metrics.json",
+        "feature_order.json",
+        "label_mapping.json"
+    ],
+    "optional_files_promoted": [
+        "val_classification_report.txt",
+        "test_classification_report.txt",
+        "val_confusion_matrix.csv",
+        "test_confusion_matrix.csv",
+        "feature_importances.csv"
+    ],
+    "promoted_at": "2026-04-21T17:25:08"
+}

@@ -1,0 +1,14 @@
+{
+    "source_run_dir": "C:\\Users\\user\\OneDrive\\Desktop\\Project-ML-cyber\\artifacts\\runs\\mlp_tuned_multiclass_v1_20260422_120037",
+    "final_dir": "C:\\Users\\user\\OneDrive\\Desktop\\Project-ML-cyber\\artifacts\\final_multiclass_nn",
+    "copied_optional_files": [
+        "best_model_metrics.json",
+        "promotion_ready_metrics.json",
+        "best_params.json",
+        "training_config.json",
+        "val_classification_report.txt",
+        "test_classification_report.txt",
+        "val_confusion_matrix.csv",
+        "test_confusion_matrix.csv"
+    ]
+}

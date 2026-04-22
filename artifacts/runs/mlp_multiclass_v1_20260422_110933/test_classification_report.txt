@@ -1,0 +1,13 @@
+              precision    recall  f1-score   support
+
+      BENIGN       0.98      1.00      0.99     10136
+        DDoS       0.86      0.97      0.91      7501
+         DoS       0.71      0.34      0.46      1785
+       Mirai       1.00      0.99      0.99       581
+        Rare       0.00      0.00      0.00         8
+       Recon       1.00      0.18      0.31       153
+    Spoofing       0.65      0.22      0.33       108
+
+    accuracy                           0.92     20272
+   macro avg       0.74      0.53      0.57     20272
+weighted avg       0.91      0.92      0.90     20272

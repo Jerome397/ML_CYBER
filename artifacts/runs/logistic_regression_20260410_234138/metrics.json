@@ -1,0 +1,45 @@
+{
+    "model": "LogisticRegression",
+    "split_source": "artifacts\\splits\\split_indices.npz",
+    "validation_accuracy": 0.9836666666666667,
+    "validation_macro_f1": 0.9836623081335365,
+    "false_positive_rate_benign": 0.0,
+    "class_order": [
+        "ATTACK",
+        "BENIGN"
+    ],
+    "train_size": 14000,
+    "validation_size": 3000,
+    "test_size": 3000,
+    "infinite_value_counts_by_feature": {
+        "Rate": 2
+    },
+    "max_abs_finite_numeric_value": 90878238.05555557,
+    "classification_report": {
+        "ATTACK": {
+            "precision": 1.0,
+            "recall": 0.9673333333333334,
+            "f1-score": 0.9833954591663843,
+            "support": 1500.0
+        },
+        "BENIGN": {
+            "precision": 0.9683666881859264,
+            "recall": 1.0,
+            "f1-score": 0.9839291571006887,
+            "support": 1500.0
+        },
+        "accuracy": 0.9836666666666667,
+        "macro avg": {
+            "precision": 0.9841833440929633,
+            "recall": 0.9836666666666667,
+            "f1-score": 0.9836623081335365,
+            "support": 3000.0
+        },
+        "weighted avg": {
+            "precision": 0.9841833440929632,
+            "recall": 0.9836666666666667,
+            "f1-score": 0.9836623081335365,
+            "support": 3000.0
+        }
+    }
+}

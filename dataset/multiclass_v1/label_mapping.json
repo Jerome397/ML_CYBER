@@ -1,0 +1,9 @@
+{
+    "BENIGN": 0,
+    "DDoS": 1,
+    "DoS": 2,
+    "Mirai": 3,
+    "Rare": 4,
+    "Recon": 5,
+    "Spoofing": 6
+}

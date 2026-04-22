@@ -1,0 +1,14 @@
+{
+    "model": "MLPClassifier",
+    "dataset": "multiclass_v1",
+    "run_name": "mlp_tuned_multiclass_v1_20260422_112739",
+    "best_params": {
+        "mlp__alpha": 0.001,
+        "mlp__hidden_layer_sizes": [
+            64
+        ],
+        "mlp__learning_rate_init": 0.01
+    },
+    "val_macro_f1": 0.5594706038369417,
+    "test_macro_f1": 0.5454106098330113
+}

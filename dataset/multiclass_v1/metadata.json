@@ -1,0 +1,18 @@
+{
+    "dataset_name": "multiclass_v1",
+    "num_rows": 101356,
+    "num_features": 39,
+    "target_column": "Final_Label",
+    "intermediate_group_column": "Grouped_Label",
+    "original_label_column": "Label",
+    "classes": [
+        "BENIGN",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Rare",
+        "Recon",
+        "Spoofing"
+    ],
+    "description": "Grouped multiclass dataset built from CICIoT2023 with proportional attack downsampling and rare class merging"
+}

@@ -1,0 +1,45 @@
+{
+    "model": "MLPClassifier",
+    "dataset": "multiclass_v1",
+    "run_name": "mlp_tuned_multiclass_v1_20260422_120037",
+    "search_type": "GridSearchCV",
+    "scoring": "f1_macro",
+    "cv": 3,
+    "param_grid": {
+        "mlp__hidden_layer_sizes": [
+            "(64,)",
+            "(128,)",
+            "(128, 64)",
+            "(256, 128)"
+        ],
+        "mlp__activation": [
+            "relu",
+            "tanh"
+        ],
+        "mlp__alpha": [
+            0.0001,
+            0.001,
+            0.01
+        ],
+        "mlp__learning_rate_init": [
+            0.0005,
+            0.001,
+            0.01
+        ],
+        "mlp__batch_size": [
+            128,
+            256
+        ]
+    },
+    "best_params": {
+        "mlp__activation": "tanh",
+        "mlp__alpha": 0.0001,
+        "mlp__batch_size": 128,
+        "mlp__hidden_layer_sizes": [
+            128
+        ],
+        "mlp__learning_rate_init": 0.01
+    },
+    "best_cv_macro_f1": 0.5749947216179884,
+    "random_state": 42
+}

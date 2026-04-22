@@ -1,0 +1,87 @@
+{
+    "model": "RandomForestClassifier",
+    "split_source": "artifacts\\splits\\split_indices.npz",
+    "validation_accuracy": 0.985,
+    "validation_macro_f1": 0.9849969177000919,
+    "false_positive_rate_benign": 0.0006666666666666666,
+    "class_order": [
+        "ATTACK",
+        "BENIGN"
+    ],
+    "train_size": 14000,
+    "validation_size": 3000,
+    "test_size": 3000,
+    "infinite_value_counts_by_feature": {
+        "Rate": 2
+    },
+    "max_abs_finite_numeric_value": 90878238.05555557,
+    "classification_report": {
+        "ATTACK": {
+            "precision": 0.9993136582017845,
+            "recall": 0.9706666666666667,
+            "f1-score": 0.9847818735204599,
+            "support": 1500.0
+        },
+        "BENIGN": {
+            "precision": 0.9714841218405703,
+            "recall": 0.9993333333333333,
+            "f1-score": 0.9852119618797239,
+            "support": 1500.0
+        },
+        "accuracy": 0.985,
+        "macro avg": {
+            "precision": 0.9853988900211774,
+            "recall": 0.985,
+            "f1-score": 0.9849969177000919,
+            "support": 3000.0
+        },
+        "weighted avg": {
+            "precision": 0.9853988900211774,
+            "recall": 0.985,
+            "f1-score": 0.9849969177000918,
+            "support": 3000.0
+        }
+    },
+    "top_10_features": [
+        {
+            "feature": "Number",
+            "importance": 0.17047034887644047
+        },
+        {
+            "feature": "HTTPS",
+            "importance": 0.13251365946552726
+        },
+        {
+            "feature": "ack_flag_number",
+            "importance": 0.10258751488029795
+        },
+        {
+            "feature": "Header_Length",
+            "importance": 0.08831797971067235
+        },
+        {
+            "feature": "IAT",
+            "importance": 0.0801255780508711
+        },
+        {
+            "feature": "Tot size",
+            "importance": 0.0651926552916039
+        },
+        {
+            "feature": "Rate",
+            "importance": 0.06278096677690159
+        },
+        {
+            "feature": "ack_count",
+            "importance": 0.058487574033340144
+        },
+        {
+            "feature": "AVG",
+            "importance": 0.04186667072027476
+        },
+        {
+            "feature": "Max",
+            "importance": 0.032128300572130036
+        }
+    ]
+}

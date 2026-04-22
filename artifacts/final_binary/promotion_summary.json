@@ -1,0 +1,21 @@
+{
+    "selected_model": "random_forest",
+    "source_run": "artifacts\\runs\\random_forest_20260410_235125",
+    "macro_f1": 0.9849969177000919,
+    "accuracy": 0.985,
+    "all_candidates": [
+        {
+            "model": "random_forest",
+            "run_dir": "artifacts\\runs\\random_forest_20260410_235125",
+            "macro_f1": 0.9849969177000919,
+            "accuracy": 0.985
+        },
+        {
+            "model": "logistic_regression",
+            "run_dir": "artifacts\\runs\\logistic_regression_20260410_234138",
+            "macro_f1": 0.9836623081335365,
+            "accuracy": 0.9836666666666667
+        }
+    ],
+    "promoted_at": "2026-04-21T16:30:38"
+}

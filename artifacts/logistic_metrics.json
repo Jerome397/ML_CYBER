@@ -1,0 +1,13 @@
+{
+    "model": "LogisticRegression",
+    "validation_accuracy": 0.9836666666666667,
+    "validation_macro_f1": 0.9836623081335365,
+    "false_positive_rate_benign": 0.0,
+    "class_order": [
+        "ATTACK",
+        "BENIGN"
+    ],
+    "train_size": 14000,
+    "validation_size": 3000,
+    "test_size": 3000
+}

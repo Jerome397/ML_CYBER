@@ -1,0 +1,24 @@
+{
+    "model": "MLPClassifier",
+    "dataset": "multiclass_v1",
+    "run_name": "mlp_multiclass_v1_20260422_110933",
+    "num_classes": 7,
+    "class_names": [
+        "BENIGN",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Rare",
+        "Recon",
+        "Spoofing"
+    ],
+    "train_size": 64867,
+    "val_size": 16217,
+    "test_size": 20272,
+    "val_accuracy": 0.916692359869273,
+    "val_macro_f1": 0.5860193619657655,
+    "val_weighted_f1": 0.9018628412992837,
+    "test_accuracy": 0.9182616416732439,
+    "test_macro_f1": 0.5706290714279686,
+    "test_weighted_f1": 0.9045589020842002
+}

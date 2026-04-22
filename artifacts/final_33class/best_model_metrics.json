@@ -1,0 +1,92 @@
+{
+    "model": "RandomForestClassifier",
+    "dataset": "multiclass_33_v1",
+    "num_classes": 34,
+    "class_names": [
+        "BACKDOOR_MALWARE",
+        "BENIGN",
+        "BROWSERHIJACKING",
+        "COMMANDINJECTION",
+        "DDOS-ACK_FRAGMENTATION",
+        "DDOS-HTTP_FLOOD",
+        "DDOS-ICMP_FLOOD",
+        "DDOS-ICMP_FRAGMENTATION",
+        "DDOS-PSHACK_FLOOD",
+        "DDOS-RSTFINFLOOD",
+        "DDOS-SLOWLORIS",
+        "DDOS-SYNONYMOUSIP_FLOOD",
+        "DDOS-SYN_FLOOD",
+        "DDOS-TCP_FLOOD",
+        "DDOS-UDP_FLOOD",
+        "DDOS-UDP_FRAGMENTATION",
+        "DICTIONARYBRUTEFORCE",
+        "DNS_SPOOFING",
+        "DOS-HTTP_FLOOD",
+        "DOS-SYN_FLOOD",
+        "DOS-TCP_FLOOD",
+        "DOS-UDP_FLOOD",
+        "MIRAI-GREETH_FLOOD",
+        "MIRAI-GREIP_FLOOD",
+        "MIRAI-UDPPLAIN",
+        "MITM-ARPSPOOFING",
+        "RECON-HOSTDISCOVERY",
+        "RECON-OSSCAN",
+        "RECON-PINGSWEEP",
+        "RECON-PORTSCAN",
+        "SQLINJECTION",
+        "UPLOADING_ATTACK",
+        "VULNERABILITYSCAN",
+        "XSS"
+    ],
+    "train_size": 64867,
+    "val_size": 16217,
+    "test_size": 20271,
+    "val_accuracy": 0.8727261515693409,
+    "val_macro_f1": 0.5560664061240315,
+    "val_weighted_f1": 0.8689308559068485,
+    "test_accuracy": 0.8708993142913521,
+    "test_macro_f1": 0.5395394262439677,
+    "test_weighted_f1": 0.8666985685415551,
+    "top_10_features": [
+        {
+            "feature": "Rate",
+            "importance": 0.0847652262728144
+        },
+        {
+            "feature": "IAT",
+            "importance": 0.07001473046518132
+        },
+        {
+            "feature": "Tot sum",
+            "importance": 0.06255789989981031
+        },
+        {
+            "feature": "Header_Length",
+            "importance": 0.06237172079735698
+        },
+        {
+            "feature": "Tot size",
+            "importance": 0.05552352276019713
+        },
+        {
+            "feature": "AVG",
+            "importance": 0.055338149978002786
+        },
+        {
+            "feature": "Max",
+            "importance": 0.04583037504644655
+        },
+        {
+            "feature": "Std",
+            "importance": 0.040671486641302795
+        },
+        {
+            "feature": "Time_To_Live",
+            "importance": 0.03879121864383026
+        },
+        {
+            "feature": "Variance",
+            "importance": 0.03745379679743515
+        }
+    ]
+}

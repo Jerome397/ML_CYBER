@@ -1,0 +1,23 @@
+{
+    "model": "LogisticRegression",
+    "dataset": "multiclass_v1",
+    "num_classes": 7,
+    "class_names": [
+        "BENIGN",
+        "DDoS",
+        "DoS",
+        "Mirai",
+        "Rare",
+        "Recon",
+        "Spoofing"
+    ],
+    "train_size": 64867,
+    "val_size": 16217,
+    "test_size": 20272,
+    "val_accuracy": 0.6178701362767466,
+    "val_macro_f1": 0.45359991636463176,
+    "val_weighted_f1": 0.7059184432222779,
+    "test_accuracy": 0.621102999210734,
+    "test_macro_f1": 0.4523550949699522,
+    "test_weighted_f1": 0.7087986909486788
+}

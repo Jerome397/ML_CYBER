@@ -1,0 +1,37 @@
+{
+    "promoted_model_name": "random_forest_multiclass",
+    "source_run_dir": "C:\\Users\\user\\OneDrive\\Desktop\\Project-ML-cyber\\artifacts\\runs\\random_forest_multiclass",
+    "selection_metric": "macro_f1",
+    "selected_score": 0.6291828153673797,
+    "selected_accuracy": 0.9002281556391442,
+    "all_candidates": [
+        {
+            "model_name": "random_forest_multiclass",
+            "run_dir": "C:\\Users\\user\\OneDrive\\Desktop\\Project-ML-cyber\\artifacts\\runs\\random_forest_multiclass",
+            "macro_f1": 0.6291828153673797,
+            "accuracy": 0.9002281556391442
+        },
+        {
+            "model_name": "logistic_regression_multiclass",
+            "run_dir": "C:\\Users\\user\\OneDrive\\Desktop\\Project-ML-cyber\\artifacts\\runs\\logistic_regression_multiclass",
+            "macro_f1": 0.45359991636463176,
+            "accuracy": 0.6178701362767466
+        }
+    ],
+    "required_files_promoted": [
+        "best_model.joblib",
+        "best_model_metrics.json",
+        "feature_order.json",
+        "label_mapping.json"
+    ],
+    "optional_files_promoted": [
+        "classification_report.txt",
+        "confusion_matrix.csv",
+        "feature_importances.csv",
+        "val_classification_report.txt",
+        "test_classification_report.txt",
+        "val_confusion_matrix.csv",
+        "test_confusion_matrix.csv"
+    ],
+    "promoted_at": "2026-04-22T11:51:34"
+}

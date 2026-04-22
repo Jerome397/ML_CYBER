@@ -1,0 +1,31 @@
+{
+    "data_path": "clean_sample.csv",
+    "config_path": "feature_list.json",
+    "target": "Label",
+    "num_features": 39,
+    "num_rows": 20000,
+    "random_state": 42,
+    "train_ratio": 0.7,
+    "val_ratio": 0.15,
+    "test_ratio": 0.15,
+    "overall_class_distribution": {
+        "BENIGN": 10000,
+        "ATTACK": 10000
+    },
+    "train_class_distribution": {
+        "BENIGN": 7000,
+        "ATTACK": 7000
+    },
+    "validation_class_distribution": {
+        "BENIGN": 1500,
+        "ATTACK": 1500
+    },
+    "test_class_distribution": {
+        "ATTACK": 1500,
+        "BENIGN": 1500
+    },
+    "infinite_value_counts_by_feature": {
+        "Rate": 2
+    },
+    "max_abs_numeric_value": 90878238.05555557
+}
