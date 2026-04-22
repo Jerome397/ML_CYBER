@@ -1,21 +1,35 @@
 {
-    "selected_model": "random_forest",
-    "source_run": "artifacts\\runs\\random_forest_20260410_235125",
-    "macro_f1": 0.9849969177000919,
-    "accuracy": 0.985,
+    "promoted_model_name": "random_forest_binary",
+    "source_run_dir": "C:\\Users\\user\\OneDrive\\Desktop\\Project-ML-cyber\\artifacts\\runs\\random_forest_binary_20260422_191230",
+    "selection_metric": "macro_f1",
+    "selected_score": 0.9852467902548048,
+    "selected_accuracy": 0.98525,
     "all_candidates": [
         {
-            "model": "random_forest",
-            "run_dir": "artifacts\\runs\\random_forest_20260410_235125",
-            "macro_f1": 0.9849969177000919,
-            "accuracy": 0.985
+            "model_name": "random_forest_binary",
+            "run_dir": "C:\\Users\\user\\OneDrive\\Desktop\\Project-ML-cyber\\artifacts\\runs\\random_forest_binary_20260422_191230",
+            "macro_f1": 0.9852467902548048,
+            "accuracy": 0.98525
         },
         {
-            "model": "logistic_regression",
-            "run_dir": "artifacts\\runs\\logistic_regression_20260410_234138",
-            "macro_f1": 0.9836623081335365,
-            "accuracy": 0.9836666666666667
+            "model_name": "logistic_regression_binary",
+            "run_dir": "C:\\Users\\user\\OneDrive\\Desktop\\Project-ML-cyber\\artifacts\\runs\\logistic_regression_binary_20260422_191243",
+            "macro_f1": 0.9829959147685231,
+            "accuracy": 0.983
         }
     ],
-    "promoted_at": "2026-04-21T16:30:38"
+    "required_files_promoted": [
+        "best_model.joblib",
+        "best_model_metrics.json",
+        "feature_order.json",
+        "label_mapping.json"
+    ],
+    "optional_files_promoted": [
+        "val_classification_report.txt",
+        "test_classification_report.txt",
+        "val_confusion_matrix.csv",
+        "test_confusion_matrix.csv",
+        "feature_importances.csv"
+    ],
+    "promoted_at": "2026-04-22T19:12:54"
 }

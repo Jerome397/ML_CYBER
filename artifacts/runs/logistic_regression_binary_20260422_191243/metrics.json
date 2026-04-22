@@ -1,0 +1,21 @@
+{
+    "model": "LogisticRegression",
+    "dataset": "binary",
+    "run_name": "logistic_regression_binary_20260422_191243",
+    "source_csv": "C:\\Users\\user\\OneDrive\\Desktop\\Project-ML-cyber\\dataset\\binary_v1\\clean_sample.csv",
+    "label_column": "Label",
+    "num_classes": 2,
+    "class_names": [
+        "ATTACK",
+        "BENIGN"
+    ],
+    "train_size": 12000,
+    "val_size": 4000,
+    "test_size": 4000,
+    "val_accuracy": 0.983,
+    "val_macro_f1": 0.9829959147685231,
+    "val_weighted_f1": 0.9829959147685231,
+    "test_accuracy": 0.98425,
+    "test_macro_f1": 0.9842468011160517,
+    "test_weighted_f1": 0.9842468011160516
+}
